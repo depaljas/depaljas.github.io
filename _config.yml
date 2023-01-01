@@ -54,10 +54,9 @@ plugins:
 #   - vendor/ruby/
 
 domain: depaljas.github.io
-url: https://depaljas.github.io
 
 # required by disqus to display comments
-url: https://your-site-url
+url: https://depaljas.github.io
 
 # jekyll-paginate
 paginate: 5
