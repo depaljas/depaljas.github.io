@@ -35,7 +35,7 @@ Commenting it out resolved the issue, but I decided to start from scratch and bu
 servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
 ```
 
-This appears to be a result of using an older version of Jekyll (imposed by using the github-pages gem) with a newer version of Ruby. A workaround was proposed [here][webrick], running `bundle add webrick`. The page runs OK locally now.
+This appears to be a result of using an older version of Jekyll (imposed by using the github-pages gem) with a newer version of Ruby. A workaround was proposed [here][webrick], running `bundle add webrick`. The page runs OK locally now. The FAQ of the [jekyll-dash][dash-gh] theme, discussed further down, also mentions this.
 
 In step 17, using branch `master`, which seems to be the default branch when commit without specifying a branch name explicitly. At this point I also reviewed step 6, and noticed that GitHub had successfully set the deployment branch to `master`. In seconds, the site was hosted successfully on GitHub pages.
 
