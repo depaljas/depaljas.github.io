@@ -50,7 +50,7 @@ Using the github-pages gem set the jekyll version to 3.9.2, so I need to use jek
 Pagination is enabled, but I couldn't find an index.html page...
 ```
 
-Apparently, this theme requires an index.html, so I renamed index.markdown to index.html, which got rid of the message and made the posts show up again.
+Apparently, this theme requires an index.html, so I renamed index.markdown to index.html, which got rid of the message and made the posts show up again. In hindsight, this was mentioned in the FAQ for [jekyll-dash][dash-gh].
 
 Publishing the theme
 --------------------
