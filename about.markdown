@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+MERGE LINE: local 12:09
+
 This is basically the base Jekyll theme here. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
